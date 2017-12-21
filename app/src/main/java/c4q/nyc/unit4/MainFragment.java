@@ -18,7 +18,7 @@ import android.widget.Button;
  * A placeholder fragment containing a simple view
  */
 
-public class MainFragment extends Fragment {
+public class MainFragment extends Fragment implements View.OnClickListener {
 
     // button:
     private Button mainFragmentButton;
@@ -61,9 +61,13 @@ public class MainFragment extends Fragment {
          * the container view group is the one that will host the fragment
          */
         // inflates the main fragment layout
-        return inflater.inflate(R.layout.fragment_main, container, false);
+        //return inflater.inflate(R.layout.fragment_main, container, false);
 
+        View view = inflater.inflate(R.layout.fragment_main, container, false );
 
+        mainFragmentButton = (Button)view.findViewById(R.id.main_fragment_button);
+
+        return view;
 
     }
 
@@ -100,5 +104,10 @@ public class MainFragment extends Fragment {
     @Override
     public void onPause() {
         super.onPause();
+    }
+
+    @Override
+    public void onClick(View view) {
+
     }
 }
