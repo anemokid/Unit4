@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Unit4</string>
+
+    <!-- MAIN FRAGMENT TEXT: -->
+    <string name="main_frag_text">click!></string>
+
 </resources>

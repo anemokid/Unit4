@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- -->
+
+    <!-- MAIN FRAGMENT.XML IDS: -->
+    <item name="main_fragment_button" type ="id">Main Fragment Button ID</item>
+    <item name="first_fragment" type="id">main frag id</item>
+
+
+    <!-- DISPLAY FRAGMENT IDS:  -->
+    <item name="top_fragment_framelayout" type="id"> Top Fragment Frame Layout ID</item>
+    <item name="bottom_fragment_framelayout" type="id"> Bottom Fragment Frame Layout ID</item>
+
+    <item name="top_fragment" type="id">top fragment id</item>
+    <item name="bottom_fragment" type="id">bottom fragment id</item>
+
+</resources>
